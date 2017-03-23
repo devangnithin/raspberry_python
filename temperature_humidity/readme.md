@@ -17,4 +17,5 @@ TO DO:
 				
 Web.
 > Displays historical charts and current room temperature and humidity.
+TO DO:
 > Update db details in DataAccessLayer/DA_DataBaseConnectionClass.php
