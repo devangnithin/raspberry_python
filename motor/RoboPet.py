@@ -74,8 +74,8 @@ if __name__ == '__main__':
             print("Motion detected")
             for i in range(0, 10):
                 RP.showSmile(sense)
-                #RP.moveLeft(amspi)
-                #RP.moveRight(amspi)
+                RP.moveLeft(amspi)
+                RP.moveRight(amspi)
             pir.wait_for_no_motion()
             sense.clear();
             RP.showSleep(sense)
